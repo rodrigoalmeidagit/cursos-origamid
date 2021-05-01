@@ -1,0 +1,31 @@
+:root {
+  /* background colors */
+  --color-darkblue-bg: #122ab2;
+  --color-lightblue-bg: #2c70ff;
+  --color-lightgrey-bg: #f7f7f7;
+
+  /* fonts colors */
+  --color-grey-font: #a4a4a4;
+  --color-footer-font: #1130c2;
+  --color-basic-font: #7c7c7c;
+
+  /* basic colors */
+  --color-black: #222;
+  --color-white: #fff;
+  --color-purple: #ae81ff;
+  --color-pink: #f9265e;
+  --color-blue: #66d9eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
