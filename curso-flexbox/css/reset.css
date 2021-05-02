@@ -11,3 +11,16 @@ a {
   list-style: none;
   text-decoration: none;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
