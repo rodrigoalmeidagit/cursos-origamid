@@ -8,6 +8,7 @@
 3- Main Header;
 4- Main Title;
 5- About Section;
+6- Products Section;
 
 */
 
@@ -138,4 +139,34 @@
 .about-img {
   margin: 0 10px;
   flex: 1 1 160px;
+}
+
+/* 6- Products Section */
+
+.product {
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.product h2 {
+  font-size: 3em;
+  display: block;
+  margin: 0 10px 60px 10px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.product-item {
+  background: var(--color-lightgrey-bg);
+  color: var(--color-basic-font);
+  font-weight: 500;
+  font-size: 3em;
+}
+
+.product-item h3 {
+  margin: 60px 20px;
 }
