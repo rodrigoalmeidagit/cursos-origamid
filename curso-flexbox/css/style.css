@@ -10,6 +10,7 @@
 5- About Section;
 6- Products Section;
 7- Pricing Section;
+8- Quality Section;
 
 */
 
@@ -271,4 +272,50 @@
   .pricing .pricing-item:nth-child(2) {
     order: -1;
   }
+}
+
+/* 8- Quality Section */
+
+.quality {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.quality-item {
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+
+.quality-item h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+  color: var(--color-grey-font);
+}
+
+.quality-item h2::before {
+  width: 8px;
+  content: "";
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.quality-item:nth-of-type(3n + 1) h2::before {
+  background: var(--color-purple);
+}
+
+.quality-item:nth-of-type(3n + 2) h2::before {
+  background: var(--color-pink);
+}
+
+.quality-item:nth-of-type(3n + 3) h2::before {
+  background: var(--color-blue);
+}
+
+.quality-item p {
+  line-height: 1.4;
+  font-size: 1.25em;
+  color: var(--color-grey-font);
 }
