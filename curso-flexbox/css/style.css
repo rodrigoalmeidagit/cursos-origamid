@@ -399,18 +399,3 @@
     font-size: 1.5em;
   }
 }
-
-/* 10- Footer Section */
-.footer {
-  display: flex;
-  background: var(--color-lightblue-bg);
-  height: 200px;
-  align-items: center;
-}
-
-.footer h2 {
-  flex: 1;
-  text-align: center;
-  font-size: 2.25em;
-  color: var(--color-darkblue-bg);
-}
