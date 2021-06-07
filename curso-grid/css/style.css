@@ -38,3 +38,13 @@ body {
 }
 
 /* Instrução */
+
+.introducao {
+  height: 380px;
+  background: black;
+}
+
+.produtos {
+  height: 380px;
+  background: blue;
+}
