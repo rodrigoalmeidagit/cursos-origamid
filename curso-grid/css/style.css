@@ -40,8 +40,11 @@ body {
 /* Instrução */
 
 .introducao {
+  width: 100%;
   height: 380px;
-  background: black;
+  margin-top: 96px;
+  background-size: cover;
+  background: url(../img/bg.jpg) no-repeat center;
 }
 
 .produtos {
