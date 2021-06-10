@@ -1,0 +1,18 @@
+/* Estilos Gerais */
+
+:root {
+  /* Color Guide */
+  --color-first: #fec63e;
+  --color-second: #fff;
+  --color-third: #000;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
