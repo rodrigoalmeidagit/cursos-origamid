@@ -32,3 +32,14 @@ p {
   color: var(--color-second);
   border-color: var(--color-second);
 }
+
+.subtitle {
+  padding: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: var(--color-third);
+  text-transform: uppercase;
+}
