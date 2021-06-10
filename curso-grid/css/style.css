@@ -77,3 +77,37 @@
   background: var(--color-second);
   margin: 14px auto 10px auto;
 }
+
+/* Produtos */
+
+.produtos {
+  padding: 60px 0px;
+}
+
+.subtitle:after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 5px auto;
+  background: var(--color-third);
+}
+
+.produtos_itens li {
+  text-align: center;
+  background: var(--color-first);
+}
+
+.produtos_itens li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.produtos_icone {
+  padding: 20px;
+  text-align: center;
+  background: var(--color-third);
+}
