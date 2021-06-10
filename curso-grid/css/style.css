@@ -51,7 +51,7 @@
 
 .quote__externo {
   color: var(--color-second);
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   max-width: 320px;
 }
 
