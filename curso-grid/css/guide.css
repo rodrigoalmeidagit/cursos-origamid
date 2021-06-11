@@ -33,6 +33,11 @@ p {
   border-color: var(--color-second);
 }
 
+.btn.btn_black:hover {
+  color: var(--color-third);
+  border-color: var(--color-third);
+}
+
 .subtitle {
   font-size: 24px;
   font-weight: bold;
