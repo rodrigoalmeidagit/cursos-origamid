@@ -84,6 +84,10 @@
   padding: 60px 0px;
 }
 
+.produtos .subtitle {
+  padding-bottom: 40px;
+}
+
 .subtitle:after {
   content: "";
   width: 60px;
@@ -98,16 +102,41 @@
   background: var(--color-first);
 }
 
+.produtos_icone {
+  padding: 20px;
+  text-align: center;
+  background: var(--color-third);
+}
+
 .produtos_itens li h3 {
   font-size: 18px;
+  margin-top: 15px;
   font-weight: bold;
   line-height: 25px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-
-.produtos_icone {
-  padding: 20px;
-  text-align: center;
+.produtos_itens li h3:after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 5px auto;
   background: var(--color-third);
+}
+
+.produtos_itens li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.call {
+  clear: both;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.call p {
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 14px;
 }
