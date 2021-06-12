@@ -18,6 +18,10 @@ p {
   font-family: Georgia, "Times New Roman", serif;
 }
 
+img {
+  display: block;
+}
+
 .btn {
   font-size: 14px;
   line-height: 20px;
