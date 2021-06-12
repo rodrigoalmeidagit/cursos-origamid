@@ -88,15 +88,6 @@
   padding-bottom: 40px;
 }
 
-.subtitle:after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  display: block;
-  margin: 5px auto;
-  background: var(--color-third);
-}
-
 .produtos_itens li {
   text-align: center;
   background: var(--color-first);
