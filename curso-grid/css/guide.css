@@ -48,3 +48,12 @@ p {
   color: var(--color-third);
   text-transform: uppercase;
 }
+
+.subtitle:after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 5px auto;
+  background: var(--color-third);
+}
