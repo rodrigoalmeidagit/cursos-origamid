@@ -131,3 +131,28 @@
   line-height: 20px;
   margin-bottom: 20px;
 }
+
+/* Portfólio */
+.portfolio {
+  width: 100%;
+  padding: 40px 0;
+  background: var(--color-third);
+}
+
+.portfolio .subtitle {
+  padding-bottom: 40px;
+  color: var(--color-first);
+}
+
+.portfolio .subtitle::after {
+  background: var(--color-first);
+}
+
+.portfolio_itens .grid-8 {
+  padding-bottom: 20px;
+}
+
+.portfolio .call p {
+  padding-bottom: 9px;
+  color: var(--color-second);
+}
