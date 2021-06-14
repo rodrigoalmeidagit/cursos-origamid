@@ -36,7 +36,7 @@
 .introducao {
   width: 100%;
   height: 380px;
-  margin-top: 92px;
+  margin-top: 96px;
   padding-top: 80px;
   text-align: center;
   background-size: cover;
@@ -156,4 +156,59 @@
 .portfolio .call p {
   padding-bottom: 9px;
   color: var(--color-second);
+}
+
+/* Qualidade */
+.qualidade {
+  padding: 60px 0;
+}
+
+.qualidade::after {
+  top: 211px;
+  content: "";
+  z-index: -1;
+  right: 162px;
+  width: 634px;
+  height: 83px;
+  display: block;
+  position: absolute;
+  background: url(../img/linhas.svg) no-repeat center;
+}
+
+.qualidade .subtitle {
+  padding-bottom: 40px;
+}
+
+.qualidade .subtitle::after {
+  color: var(--color-third);
+}
+
+.qualidade img {
+  margin: 0 auto 30px;
+}
+
+.qualidade_itens li {
+  padding: 0 40px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.qualidade_itens h3 {
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.qualidade_itens h3::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 6px auto;
+  background-color: var(--color-third);
+}
+
+.qualidade .call p {
+  padding-bottom: 9px;
 }
