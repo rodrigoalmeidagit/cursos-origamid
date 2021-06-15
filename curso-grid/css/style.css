@@ -197,6 +197,8 @@
 .qualidade_itens h3 {
   font-size: 18px;
   line-height: 25px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
