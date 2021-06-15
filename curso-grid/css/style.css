@@ -212,3 +212,15 @@
 .qualidade .call p {
   padding-bottom: 9px;
 }
+
+.qualidade_quote {
+  width: 100%;
+  height: 220px;
+  padding-top: 50px;
+  text-align: center;
+  background: url(../img/bg-footer.jpg) no-repeat center;
+}
+
+.qualidade_quote .quote__externo {
+  max-width: 430px;
+}
