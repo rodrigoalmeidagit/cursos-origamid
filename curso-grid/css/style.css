@@ -41,6 +41,7 @@
   text-align: center;
   background-size: cover;
   background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .introducao__title {
