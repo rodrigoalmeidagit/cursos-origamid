@@ -222,6 +222,7 @@
   padding-top: 50px;
   text-align: center;
   background: url(../img/bg-footer.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .qualidade_quote .quote__externo {
