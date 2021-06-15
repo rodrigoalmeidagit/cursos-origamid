@@ -224,3 +224,63 @@
 .qualidade_quote .quote__externo {
   max-width: 430px;
 }
+
+/* Footer */
+.footer {
+  width: 100%;
+  background: #000;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-first);
+}
+
+.footer h3::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 6px 0 10px 0;
+  background-color: var(--color-first);
+}
+
+.footer_historia {
+  padding-right: 40px;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+  margin-top: 5px;
+  border: 3px solid var(--color-first);
+  display: block;
+  padding: 8px;
+}
+
+.footer_redes ul li a:hover {
+  border-color: var(--color-second);
+}
+
+.copy {
+  width: 100%;
+  background: var(--color-first);
+}
+.copy p {
+  padding: 20px 0;
+}
