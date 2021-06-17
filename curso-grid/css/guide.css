@@ -22,6 +22,10 @@ img {
   display: block;
 }
 
+.header ul li a.menu_ativo {
+  color: var(--color-second);
+}
+
 .btn {
   font-size: 14px;
   line-height: 20px;
