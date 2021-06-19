@@ -5,7 +5,11 @@
 }
 
 .produtos_item {
-  padding: 60px 0;
+  padding: 60px 0 0 0;
+}
+
+.terceiro_produto {
+  padding-bottom: 60px;
 }
 
 .produtos_item h2 {
@@ -43,13 +47,14 @@
 
 .produto_info {
   background: var(--color-third);
-  color: white;
 }
 
 .produto_info p {
   padding: 40px;
+  height: 182px;
   font-size: 18px;
   line-height: 25px;
+  color: var(--color-second);
 }
 
 .produto_info ul {
@@ -58,12 +63,30 @@
 }
 
 .produto_info li {
-  background-color: var(--color-first);
-  text-align: center;
   padding: 15px;
   flex: 1 1 200px;
-  text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
   border: 1px solid black;
   color: var(--color-third);
+  background-color: var(--color-first);
+}
+
+.produto_info li:nth-child(odd) {
+  border-left: none;
+}
+
+.produto_info li:nth-child(even) {
+  border-right: none;
+}
+
+.produto_info li:nth-child(3),
+.produto_info li:nth-child(4) {
+  border-bottom: none;
+}
+
+.produto_info li:nth-child(1),
+.produto_info li:nth-child(2) {
+  border-top: none;
 }
