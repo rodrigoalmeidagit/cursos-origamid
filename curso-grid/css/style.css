@@ -232,7 +232,7 @@
 .footer {
   width: 100%;
   background: #000;
-  color: white;
+  color: var(--color-second);
   padding: 20px 0;
 }
 
@@ -265,15 +265,15 @@
 }
 
 .footer_redes ul li {
-  display: inline-block;
   margin-right: 10px;
+  display: inline-block;
 }
 
 .footer_redes ul li a {
+  padding: 8px;
+  display: block;
   margin-top: 5px;
   border: 3px solid var(--color-first);
-  display: block;
-  padding: 8px;
 }
 
 .footer_redes ul li a:hover {
