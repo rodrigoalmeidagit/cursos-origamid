@@ -231,7 +231,7 @@
 /* Footer */
 .footer {
   width: 100%;
-  background: #000;
+  background: var(--color-third);
   color: var(--color-second);
   padding: 20px 0;
 }
