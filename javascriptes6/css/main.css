@@ -81,6 +81,7 @@ body {
   height: 370px;
   overflow-y: scroll;
   grid-column: 2;
+  cursor: pointer;
 }
 
 .animais-lista::-webkit-scrollbar {
