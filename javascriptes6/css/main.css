@@ -206,7 +206,7 @@ body {
   }
 }
 
-.animais-show section {
+.js .animais-show section {
   display: none;
 }
 
