@@ -226,6 +226,10 @@ body {
   }
 }
 
+.js .faq-toggle dt {
+  cursor: pointer;
+}
+
 .js .faq-toggle dd {
   display: none;
 }
