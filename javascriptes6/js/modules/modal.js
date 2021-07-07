@@ -4,22 +4,17 @@ const $containerModal = document.querySelector('[data-js="container"]');
 const activeClass = 'ativo';
 
 if ($btnAbrir && $btnFechar && $containerModal) {
-  function abrirModal(event) {
+  function toggleModal(event) {
     event.preventDefault();
-    $containerModal.classList.add(activeClass);
-  }
-
-  function fecharModal(event) {
-    event.preventDefault()
-    $containerModal.classList.remove(activeClass)
+    $containerModal.classList.toggle(activeClass);
   }
 
   function clickForaModal(event) {
     if (event.target === this)
-      fecharModal(event);
+      toggleModal(event);
   }
 
-  $btnAbrir.addEventListener('click', abrirModal)
-  $btnFechar.addEventListener('click', fecharModal)
+  $btnAbrir.addEventListener('click', toggleModal)
+  $btnFechar.addEventListener('click', toggleModal)
   $containerModal.addEventListener('click', clickForaModal)
 }
