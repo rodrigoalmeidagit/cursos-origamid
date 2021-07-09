@@ -214,7 +214,6 @@ body {
 
 .animais-show section.ativo {
   display: block !important;
-  animation: show 0.5s forwards;
 }
 
 .animais-show section.ativo.show-right {
