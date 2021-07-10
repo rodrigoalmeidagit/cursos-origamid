@@ -206,6 +206,10 @@ body {
   .copy {
     margin-bottom: 0;
   }
+
+  .dados {
+    margin-top: 70px;
+  }
 }
 
 .js .animais-show section {
