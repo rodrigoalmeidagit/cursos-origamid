@@ -4,7 +4,7 @@ import initModal from './modules/modal.js';
 import initFaqAccordion from './modules/faq-accordion.js';
 import initTabNav from './modules/tab-nav.js';
 import initTooltip from './modules/tooltip.js';
-import initDropDownMenu from './modules/dropdown';
+import initDropDownMenu from './modules/dropdown.js';
 
 initScrollSuave();
 initScrollAnimacao();
