@@ -5,6 +5,8 @@ import initFaqAccordion from './modules/faq-accordion.js';
 import initTabNav from './modules/tab-nav.js';
 import initTooltip from './modules/tooltip.js';
 import initDropDownMenu from './modules/dropdown.js';
+import initMenuMobile from './modules/menu-mobile.js';
+
 
 initScrollSuave();
 initScrollAnimacao();
@@ -13,3 +15,4 @@ initFaqAccordion();
 initTabNav();
 initTooltip();
 initDropDownMenu();
+initMenuMobile();
