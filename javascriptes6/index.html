@@ -18,7 +18,9 @@
 <body>
   <div class="grid-container">
     <nav class="menu" data-js="menu-link">
-      <ul>
+      <button data-js="menu" aria-expanded="false"
+        aria-controls="menu">Menu</button>
+      <ul id="menu" data-js="list">
         <li><a href="#animais">animais</a></li>
         <li data-js="dropdown">
           <a href="sobre.html">Sobre</a>
