@@ -4,8 +4,8 @@ export default function outSideClick(element, events, callback) {
   const hasOutsideAttribute = element.hasAttribute(outSide);
 
   if (!hasOutsideAttribute) {
-    events.forEach(event => {
-      html.addEventListener(event, handleOutsideClick);
+    events.forEach(userEvent => {
+      setTimeout(() => { html.addEventListener(userEvent, handleOutsideClick); })
     })
     element.setAttribute(outSide, '');
   }
@@ -15,8 +15,8 @@ export default function outSideClick(element, events, callback) {
 
     if (!isElementEqualTarget) {
       element.removeAttribute(outSide);
-      events.forEach(event => {
-        html.removeEventListener(event, handleOutsideClick);
+      events.forEach(userEvent => {
+        html.removeEventListener(userEvent, handleOutsideClick);
       })
       callback();
     }
