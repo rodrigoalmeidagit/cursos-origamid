@@ -6,6 +6,8 @@ import initTabNav from './modules/tab-nav.js';
 import initTooltip from './modules/tooltip.js';
 import initDropDownMenu from './modules/dropdown.js';
 import initMenuMobile from './modules/menu-mobile.js';
+import initAnimaNumeros from './modules/anima-numeros.js';
+
 
 
 initScrollSuave();
@@ -16,3 +18,4 @@ initTabNav();
 initTooltip();
 initDropDownMenu();
 initMenuMobile();
+initAnimaNumeros();
