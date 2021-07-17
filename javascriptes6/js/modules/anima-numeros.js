@@ -3,7 +3,7 @@ export default function initAnimaNumeros() {
 };
 
 function animaNumeros() {
-  const $numeros = document.querySelectorAll('[data-animal]')
+  const $numeros = document.querySelectorAll('[data-numero]')
 
   $numeros.forEach((numero) => {
     const total = +numero.innerText;
