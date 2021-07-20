@@ -6,17 +6,15 @@ export default function initFuncionamento() {
   const weekDay = nowDate.getDay();
   const hourDay = nowDate.getHours();
   const isOpen = (hourDay >= hoursDay[0] && hourDay < hoursDay[1]);
+  const isWeekDay = weeksDay.includes(weekDay);
 
-  // add week day open conditional
-  const weekOpen = weeksDay.includes(weekDay)
-
-  if (!isOpen) {
-    $funcionamento.classList.remove('open');
-    $funcionamento.classList.add('closed');
-  }
-  else {
+  if (isOpen && isWeekDay) {
     $funcionamento.classList.remove('closed');
     $funcionamento.classList.add('open');
+  }
+  else {
+    $funcionamento.classList.remove('open');
+    $funcionamento.classList.add('closed');
   }
 };
 
