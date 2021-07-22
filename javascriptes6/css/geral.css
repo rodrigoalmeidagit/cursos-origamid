@@ -314,3 +314,10 @@ body {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+
+.btc-preco {
+  background: chartreuse;
+  padding: 0.5rem 0.5rem;
+  font-weight: bold;
+  border-radius: 2px;
+}
