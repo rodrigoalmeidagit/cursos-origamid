@@ -50,3 +50,19 @@
 .animais-descricao section {
   margin-bottom: 3rem;
 }
+
+.js .animais-show section {
+  display: none;
+}
+
+.animais-show section.ativo {
+  display: block !important;
+}
+
+.animais-show section.ativo.show-right {
+  animation: show-right 0.5s forwards;
+}
+
+.animais-show section.ativo.show-down {
+  animation: show-down 0.5s forwards;
+}
