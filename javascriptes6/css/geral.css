@@ -55,33 +55,6 @@ body {
   grid-column: 1 / 4;
 }
 
-.faq-lista {
-  grid-column: 2 / 4;
-}
-
-.faq-lista dt {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: bold;
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  color: #e54;
-}
-
-.faq-lista dt:before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 10px;
-  margin-right: 10px;
-  background: #fb5;
-}
-
-.faq-lista dd {
-  font-family: Helvetica, Arial;
-  margin-bottom: 0.5rem;
-  margin-left: 30px;
-}
-
 .mapa {
   grid-column: 2;
 }
@@ -199,28 +172,6 @@ body {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
-}
-
-.js .faq-toggle dt {
-  cursor: pointer;
-}
-
-.js .faq-toggle dd {
-  display: none;
-}
-
-.js .faq-toggle dd.ativo {
-  display: block;
-  animation: slideDown 0.5s forwards;
-}
-
-.faq-toggle dt::after {
-  content: "⬎";
-  margin-left: 10px;
-}
-
-.faq-toggle dt.ativo::after {
-  content: "⬏";
 }
 
 @keyframes slideDown {
