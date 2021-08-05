@@ -93,18 +93,6 @@ body {
   }
 }
 
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    max-height: 0;
-  }
-
-  to {
-    opacity: 1;
-    max-height: 200px;
-  }
-}
-
 .js .scroll-ativo {
   opacity: 0;
   transition: 0.3s;
