@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #fb5;
+}
+
 body {
   color: #222;
   background: #faf6ed;
