@@ -16,7 +16,7 @@ body {
 .menu {
   margin-top: 2rem;
   grid-column: 3 / 5;
-  background: #fb5;
+  background: var(--primary-color);
   margin-bottom: 2rem;
 }
 
