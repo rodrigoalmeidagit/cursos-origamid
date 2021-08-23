@@ -13,32 +13,6 @@ body {
   grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
 }
 
-.menu {
-  margin-top: 2rem;
-  grid-column: 3 / 5;
-  background: var(--primary-color);
-  margin-bottom: 2rem;
-}
-
-.menu ul {
-  display: flex;
-  padding: 10px;
-  flex-wrap: wrap;
-}
-
-.menu li a {
-  padding: 10px;
-  color: #222;
-  display: block;
-  font-weight: bold;
-  margin-right: 10px;
-  font-size: 0.875rem;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-family: "IBM Flex Mono", monospace;
-}
-
 .grid-section {
   grid-column: 2 / 4;
   width: 100%;
