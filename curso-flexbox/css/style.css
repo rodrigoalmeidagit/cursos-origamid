@@ -16,6 +16,9 @@
 
 */
 
+@import "./first-header.css";
+@import "./main-header.css";
+
 /* 1- Colors Variables Settings */
 :root {
   /* 1.1- background colors */
@@ -34,79 +37,6 @@
   --color-purple: #ae81ff;
   --color-pink: #f9265e;
   --color-blue: #66d9eb;
-}
-
-/* 2- First Header */
-.super-info-bg {
-  font-weight: bold;
-  color: var(--color-white);
-  background: var(--color-darkblue-bg);
-}
-
-.super-info-bg a {
-  color: var(--color-white);
-  font-weight: bold;
-}
-
-.super-info {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  max-width: 960px;
-  justify-content: space-between;
-  padding-top: 10px;
-}
-
-@media (max-width: 360px) {
-  .super-info {
-    justify-content: center;
-  }
-}
-
-.super-info p,
-.super-info a {
-  margin: 0 10px 10px 10px;
-}
-
-/* 3- Main Header  */
-.menu-bg {
-  background: var(--color-lightblue-bg);
-}
-
-.menu {
-  display: flex;
-  margin: 0 auto;
-  padding: 15px 0;
-  flex-wrap: wrap;
-  max-width: 960px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.menu a {
-  color: var(--color-white);
-}
-
-.menu-logo a {
-  margin: 0 10px;
-  font-size: 2.25em;
-  font-weight: bold;
-}
-
-.menu-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.menu-nav a {
-  padding: 10px;
-  display: block; /* importante mudar o display do a para atribuir padding*/
-  font-size: 1.25em;
-  font-weight: bold;
-}
-
-.menu-nav a:hover {
-  color: var(--color-darkblue-bg);
 }
 
 /* 4- Main Title  */
