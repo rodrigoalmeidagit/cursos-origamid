@@ -1,0 +1,31 @@
+/* 2- First Header */
+.super-info-bg {
+  font-weight: bold;
+  color: var(--color-white);
+  background: var(--color-darkblue-bg);
+}
+
+.super-info-bg a {
+  color: var(--color-white);
+  font-weight: bold;
+}
+
+.super-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 960px;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+@media (max-width: 360px) {
+  .super-info {
+    justify-content: center;
+  }
+}
+
+.super-info p,
+.super-info a {
+  margin: 0 10px 10px 10px;
+}
