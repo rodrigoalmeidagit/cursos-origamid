@@ -18,6 +18,7 @@
 
 @import "./first-header.css";
 @import "./main-header.css";
+@import "./about-section.css";
 
 /* 1- Colors Variables Settings */
 :root {
@@ -46,39 +47,6 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 60px 10px;
-}
-
-/* 5- About Section */
-.about {
-  display: flex;
-  margin: 0 auto;
-  padding: 60px 0;
-  flex-wrap: wrap;
-  max-width: 960px;
-  border-top: 2px solid var(--color-darkblue-bg);
-  border-bottom: 2px solid var(--color-darkblue-bg);
-}
-
-.about-info {
-  margin: 0 10px;
-  flex: 2 1 300px;
-}
-
-.about-info h2 {
-  font-size: 3em;
-  margin-bottom: 0.5em;
-}
-
-.about-info p {
-  line-height: 1.4;
-  font-size: 1.25em;
-  margin-bottom: 1em;
-  color: var(--color-basic-font);
-}
-
-.about-img {
-  margin: 0 10px;
-  flex: 1 1 160px;
 }
 
 /* 6- Products Section */
