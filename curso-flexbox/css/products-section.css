@@ -1,0 +1,41 @@
+/* 6- Products Section */
+.product {
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+.product h2 {
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.product-item {
+  margin: 10px;
+  flex: 1 1 175px;
+}
+
+.product-item h3 {
+  font-size: 3em;
+  font-weight: bold;
+  padding: 60px 20px;
+  color: var(--color-basic-font);
+  background: var(--color-lightgrey-bg);
+}
+
+.purple {
+  border-top: 8px solid var(--color-purple);
+}
+
+.pink {
+  border-top: 8px solid var(--color-pink);
+}
+
+.blue {
+  border-top: 8px solid var(--color-blue);
+}
