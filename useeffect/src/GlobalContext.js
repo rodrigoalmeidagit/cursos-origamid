@@ -11,10 +11,10 @@ export const GlobalStorage = ({ children }) => {
     fetch('https://ranekapi.origamid.dev/json/api/produto/')
       .then(res => res.json())
       .then(json => setProduto(json));
-  }, [])
+  }, []);
 
   function limparDados() {
-    setProduto(null)
+    setProduto(null);
   }
 
   return (
