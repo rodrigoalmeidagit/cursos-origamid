@@ -1,5 +1,5 @@
-import React from 'react'
-import { GlobalContext } from './GlobalContext'
+import React from 'react';
+import { GlobalContext } from './GlobalContext';
 
 const Produto = () => {
 
@@ -15,4 +15,4 @@ const Produto = () => {
   )
 }
 
-export default Produto
+export default Produto;

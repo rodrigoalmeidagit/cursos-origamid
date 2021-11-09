@@ -1,9 +1,9 @@
-import React from 'react'
-import { GlobalContext } from './GlobalContext'
+import React from 'react';
+import { GlobalContext } from './GlobalContext';
 
 const Limpar = () => {
 
-  const { limparDados } = React.useContext(GlobalContext)
+  const { limparDados } = React.useContext(GlobalContext);
 
   return (
     <div>
@@ -12,4 +12,4 @@ const Limpar = () => {
   )
 }
 
-export default Limpar
+export default Limpar;
