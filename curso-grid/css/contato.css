@@ -1,205 +1,125 @@
 /* Introdução  */
 .interna_produtos {
-  background: url(../img/bg-contato.jpg);
-  background-size: cover;
+    background: url(../img/bg-contato.jpg);
+    background-size: cover;
 }
 
-/* Produtos */
-.produtos_item {
-  padding: 60px 0 0 0;
-}
-
-.terceiro_produto {
-  padding-bottom: 60px;
-}
-
-.produtos_item h2 {
-  font-size: 36px;
-  line-height: 40px;
-  text-transform: uppercase;
-  color: var(--color-second);
-  letter-spacing: 0.1em;
-  font-weight: bold;
-  position: relative;
-  top: -190px;
-  text-align: center;
-  margin-bottom: -62px;
-}
-
-.produtos_item h2::after,
-.produtos_item h2::before {
-  content: "";
-  width: 60px;
-  height: 3px;
-  display: block;
-  margin: 10px auto 8px auto;
-  background: var(--color-second);
-}
-
-.produto_icone {
-  background-color: var(--color-third);
-  height: 280px;
-  padding: 70px 0;
-}
-
-.produto_icone img {
-  margin: 0px auto;
-}
-
-.produto_info {
-  background: var(--color-third);
-}
-
-.produto_info p {
-  padding: 40px;
-  height: 182px;
-  font-size: 18px;
-  line-height: 25px;
-  color: var(--color-second);
-}
-
-.produto_info ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.produto_info li {
-  padding: 15px;
-  flex: 1 1 200px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  border: 1px solid black;
-  color: var(--color-third);
-  background-color: var(--color-first);
-}
-
-.produto_info li:nth-child(odd) {
-  border-left: none;
-}
-
-.produto_info li:nth-child(even) {
-  border-right: none;
-}
-
-.produto_info li:nth-child(3),
-.produto_info li:nth-child(4) {
-  border-bottom: none;
-}
-
-.produto_info li:nth-child(1),
-.produto_info li:nth-child(2) {
-  border-top: none;
-}
-
-/* Orçamentos */
-.orcamento {
-  background: var(--color-third);
-}
-
-.orcamento .container {
-  display: flex;
-  padding: 25px 0 40px 0;
-}
-
-.orcamento .subtitle {
-  padding-top: 25px;
-  color: var(--color-first);
-}
-
-.orcamento .subtitle:after {
-  background: var(--color-first);
+.form_container {
+    margin: 60px 0;
 }
 
 .form {
-  flex: 1 1 480px;
+    flex: 1 1 480px;
 }
 
 .form_btn {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .form_btn input {
-  height: 40px;
+    height: 40px;
 }
 
 .form_btn input,
 textarea {
-  width: 100%;
-  background-color: var(--color-third);
-  border: 3px solid var(--color-first);
+    width: 100%;
+    background-color: var(--color-second);
+    border: 3px solid var(--color-first);
 }
 
 .form_btn label {
-  /* Typography */
-  font-size: 18px;
-  line-height: 20px;
-  font-family: Georgia, "Times New Roman", serif;
+    /* Typography */
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
 
-  /* Positioning */
-  padding: 15px 0 5px 0;
+    /* Positioning */
+    padding: 15px 0 5px 0;
 
-  /* Visual */
-  color: var(--color-second);
+    /* Visual */
+    color: var(--color-fourth);
 }
 
 .btn_submit {
-  /* Box-model */
-  width: 140px;
-  height: 40px;
+    /* Box-model */
+    width: 140px;
+    height: 40px;
 
-  /* Positioning */
-  padding: 10px 42px;
+    /* Positioning */
+    padding: 10px;
+    margin-top: 20px;
 
-  /* Visual */
-  text-transform: uppercase;
-  border: 3px solid var(--color-first);
-  background-color: var(--color-first);
+    /* Visual */
+    text-transform: uppercase;
+    color: var(--color-first);
+    border: 3px solid var(--color-first);
+    background-color: var(--color-second);
+    cursor: pointer;
 }
 
 .dados.grid-8 {
-  flex: 1 1 480px;
-  padding-top: 10px;
-  padding-left: 75px;
+    flex: 1 1 480px;
+    padding-top: 10px;
+    padding-left: 75px;
 }
 
 .dados h2 {
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--color-first);
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-first);
 }
 
 .dados p {
-  font-size: 18px;
-  padding-top: 5px;
-  line-height: 25px;
-  color: var(--color-second);
+    font-size: 18px;
+    padding-top: 5px;
+    line-height: 25px;
+    color: var(--color-fourth);
 }
 
 .dados h2:nth-child(even) {
-  padding: 40px 0 20px 0;
+    padding: 40px 0 20px 0;
 }
 
 .dados h3 {
-  font-size: 14px;
-  line-height: 20px;
-  padding-bottom: 10px;
-  color: var(--color-second);
-  font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: var(--color-second);
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
 .dados_itens li {
-  font-size: 14px;
-  max-width: 340px;
-  line-height: 20px;
-  padding: 5px 0px 5px 1px;
-  color: var(--color-second);
+    font-size: 14px;
+    max-width: 340px;
+    line-height: 20px;
+    padding: 5px 0px 5px 1px;
+    color: var(--color-second);
 }
 
 .dados_itens li:nth-child(odd) {
-  background-color: var(--color-fourth);
+    background-color: var(--color-fourth);
+}
+
+.media_container {
+    margin-top: 30px;
+}
+
+.social_media {
+    display: flex;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+.social_media a img {
+    padding: 10px;
+    border: 2px solid var(--color-first);
+}
+
+.map img {
+    margin: 0 auto;
+    padding-bottom: 60px;
 }
