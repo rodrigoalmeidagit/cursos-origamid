@@ -56,6 +56,8 @@ textarea {
     border: 3px solid var(--color-first);
     background-color: var(--color-second);
     cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .dados.grid-8 {
@@ -80,10 +82,6 @@ textarea {
     color: var(--color-fourth);
 }
 
-.dados h2:nth-child(even) {
-    padding: 40px 0 20px 0;
-}
-
 .dados h3 {
     font-size: 14px;
     line-height: 20px;
@@ -98,10 +96,6 @@ textarea {
     line-height: 20px;
     padding: 5px 0px 5px 1px;
     color: var(--color-second);
-}
-
-.dados_itens li:nth-child(odd) {
-    background-color: var(--color-fourth);
 }
 
 .media_container {
@@ -119,7 +113,10 @@ textarea {
     border: 2px solid var(--color-first);
 }
 
-.map img {
-    margin: 0 auto;
-    padding-bottom: 60px;
+.social_media a img:hover {
+    border: 2px solid var(--color-fourth);
+}
+
+.map {
+    margin-bottom: 60px;
 }
