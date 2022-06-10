@@ -1,6 +1,22 @@
 /* Estilo para tablets */
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+    .qualidade::after {
+        right: 66px;
+    }
+
+    .qualidade_itens li {
+        padding: 10px;
+    }
+
+    .footer_redes ul li a {
+        padding: 6px;
+    }
+
+    .footer_redes ul li a img {
+        width: 26px;
+        height: 26px;
+    }
 }
 
 /* Estilo para smartphone */
