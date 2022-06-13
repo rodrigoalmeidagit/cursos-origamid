@@ -56,4 +56,18 @@
         background: url(../img/bg-mobile.jpg) no-repeat center;
         background-size: cover;
     }
+
+    .qualidade::after {
+        display: none;
+    }
+
+    .produtos,
+    .portfolio,
+    .qualidade {
+        padding: 40px 0;
+    }
+
+    .call {
+        padding-top: 10px;
+    }
 }
