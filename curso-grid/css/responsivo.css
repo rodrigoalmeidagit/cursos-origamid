@@ -50,6 +50,10 @@
         border-color: white;
     }
 
+    .header ul li a.menu_ativo {
+        border-color: var(--color-second);
+    }
+
     .introducao {
         margin-top: 0;
         padding-top: 40px;
@@ -59,6 +63,21 @@
 
     .introducao__title {
         font-size: 36px;
+    }
+
+    .introducao_interna {
+        margin-top: 0;
+    }
+
+    .historia_valor p {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0px;
+    }
+
+    .historia_valor ul li {
+        font-size: 14px;
+        line-height: 25px;
     }
 
     .qualidade::after {
