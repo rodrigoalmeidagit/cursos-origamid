@@ -8,6 +8,26 @@
         padding: 10px;
     }
 
+    /* Produtos */
+    .produtos_item h2 {
+        top: -150px;
+        margin-bottom: -56px;
+    }
+
+    .produto_icone {
+        padding: 41px 0;
+    }
+
+    .produto_info p {
+        height: 123px;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .produto_info li {
+        flex: 1 1 150px;
+    }
+
     /* Footer */
     .footer_redes ul li a {
         padding: 6px;
@@ -88,6 +108,39 @@
     .portfolio,
     .qualidade {
         padding: 40px 0;
+    }
+
+    /* Produtos */
+    .produtos_item h2 {
+        top: -110px;
+        margin-bottom: -68px;
+    }
+
+    .produto_icone {
+        padding: 41px 0;
+    }
+
+    .produto_info p {
+        height: auto;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .produto_info li {
+        flex: 1 1 100px;
+        font-size: 14px;
+    }
+
+    .orcamento .container {
+        display: block;
+    }
+
+    .dados.grid-8 {
+        padding: 30px 0 0 0;
+    }
+
+    .dados_itens li {
+        padding: 5px 0px 5px 7px;
     }
 
     .call {
