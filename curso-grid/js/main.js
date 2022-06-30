@@ -9,4 +9,9 @@ if (window.SimpleSlide) {
     time: 3000, // tempo de transição dos slides  
     nav: true
   })
+
+}
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
 }
