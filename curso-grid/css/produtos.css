@@ -114,23 +114,23 @@
     flex: 1 1 480px;
 }
 
-.form_btn {
+.form_prod_btn {
     display: flex;
     flex-direction: column;
 }
 
-.form_btn input {
+.form_prod_btn input {
     height: 40px;
 }
 
-.form_btn input,
+.form_prod_btn input,
 textarea {
     width: 100%;
     background-color: var(--color-third);
     border: 3px solid var(--color-first);
 }
 
-.form_btn label {
+.form_prod_btn label {
     /* Typography */
     font-size: 18px;
     line-height: 20px;
