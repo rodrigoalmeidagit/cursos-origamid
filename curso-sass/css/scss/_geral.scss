@@ -1,0 +1,349 @@
+/* Header */
+.header {
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 15px 0;
+    position: fixed;
+    background: var(--color-first);
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    margin-top: 25px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.header_menu ul li a {
+    font-size: 14px;
+    padding: 10px 5px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: var(--color-third);
+    text-transform: uppercase;
+}
+
+.header_menu ul li a:hover {
+    color: var(--color-second);
+}
+
+/* Instrução */
+.introducao {
+    width: 100%;
+    height: 380px;
+    margin-top: 92px;
+    padding-top: 80px;
+    text-align: center;
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.introducao__title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-second);
+}
+
+.quote__externo {
+    max-width: 320px;
+    margin: 0 auto 50px auto;
+    color: var(--color-second);
+}
+
+.quote__externo p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.quote__externo cite {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.quote__externo p::before,
+.quote__externo p::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 14px auto 10px auto;
+    background: var(--color-second);
+}
+
+/* Produtos */
+.produtos {
+    padding: 60px 0px;
+}
+
+.produtos .subtitle {
+    padding-bottom: 40px;
+}
+
+.produtos_itens li {
+    text-align: center;
+    background: var(--color-first);
+}
+
+.produtos_icone {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: var(--color-third);
+}
+
+.produtos_itens li h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.produtos_itens li h3:after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 5px auto;
+    background: var(--color-third);
+}
+
+.produtos_itens li p {
+    padding: 10px 10px 20px 10px;
+}
+
+.call {
+    clear: both;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.call p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/* Portfólio */
+.portfolio {
+    width: 100%;
+    padding: 60px 0;
+    background: var(--color-third);
+}
+
+.portfolio .subtitle {
+    padding-bottom: 40px;
+    color: var(--color-first);
+}
+
+.portfolio .subtitle::after {
+    background: var(--color-first);
+}
+
+.portfolio_itens .grid-8 {
+    padding-bottom: 20px;
+}
+
+.portfolio .call p {
+    padding-bottom: 5px;
+    color: var(--color-second);
+}
+
+/* Qualidade */
+.qualidade {
+    padding: 60px 0;
+}
+
+.qualidade::after {
+    top: 211px;
+    content: '';
+    z-index: -1;
+    right: 162px;
+    width: 634px;
+    height: 83px;
+    display: block;
+    position: absolute;
+    background: url(../img/linhas.svg) no-repeat center;
+}
+
+.qualidade .subtitle {
+    padding-bottom: 40px;
+}
+
+.qualidade .subtitle::after {
+    color: var(--color-third);
+}
+
+.qualidade img {
+    margin: 0 auto 30px;
+}
+
+.qualidade_itens li {
+    padding: 0 40px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.qualidade_itens h3 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.qualidade_itens h3::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 6px auto;
+    background-color: var(--color-third);
+}
+
+.qualidade .call p {
+    padding-bottom: 9px;
+}
+
+.qualidade_quote {
+    width: 100%;
+    height: 220px;
+    padding-top: 50px;
+    text-align: center;
+    background: url(../img/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.qualidade_quote .quote__externo {
+    max-width: 430px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background: var(--color-third);
+    color: var(--color-second);
+    padding: 20px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-first);
+}
+
+.footer h3::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 6px 0 10px 0;
+    background-color: var(--color-first);
+}
+
+.footer_historia {
+    padding-right: 40px;
+}
+
+.footer_contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer_redes ul li {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footer_redes ul li a {
+    padding: 8px;
+    display: block;
+    margin-top: 5px;
+    border: 3px solid var(--color-first);
+}
+
+.footer_redes ul li a:hover {
+    border-color: var(--color-second);
+}
+
+.copy {
+    width: 100%;
+    background: var(--color-first);
+}
+.copy p {
+    padding: 20px 0;
+    color: var(--color-second);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* Slide JavaScript */
+
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+}
+
+.js [data-slide-nav] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    text-indent: -99px;
+    overflow: hidden;
+    background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+    background: #fec63e;
+}
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .fadeInDown {
+    transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform 0.8s, opacity 0.8s;
+}

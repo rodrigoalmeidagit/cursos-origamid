@@ -1,0 +1,46 @@
+/* Introdução  */
+.interna_sobre {
+  background-size: cover;
+  background: url(../img/bg-sobre.jpg);
+}
+
+/* Missão */
+.historia_valor {
+  padding-top: 60px;
+}
+
+.historia_valor p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}
+
+.historia_valor ul li {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.foto_equipe {
+  padding: 30px 0 20px 0;
+}
+
+.subtitle_valor {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-third);
+}
+
+.subtitle_valor::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 8px 0;
+  background: var(--color-third);
+}
