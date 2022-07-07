@@ -24,8 +24,8 @@
 .form_btn input,
 textarea {
   width: 100%;
-  background-color: var(--color-second);
-  border: 3px solid $primary_color;
+  background-color: $second-color;
+  border: 3px solid $primary-color;
 }
 
 .form_btn label {
@@ -38,7 +38,7 @@ textarea {
   padding: 15px 0 5px 0;
 
   /* Visual */
-  color: var(--color-fourth);
+  color: $fourth-color;
 }
 
 .btn_submit {
@@ -52,9 +52,9 @@ textarea {
 
   /* Visual */
   text-transform: uppercase;
-  color: $primary_color;
-  border: 3px solid $primary_color;
-  background-color: var(--color-second);
+  color: $primary-color;
+  border: 3px solid $primary-color;
+  background-color: $second-color;
   font-size: 14px;
   font-weight: bold;
 }
@@ -71,21 +71,21 @@ textarea {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: $primary_color;
+  color: $primary-color;
 }
 
 .dados p {
   font-size: 18px;
   padding-top: 5px;
   line-height: 25px;
-  color: var(--color-fourth);
+  color: $fourth-color;
 }
 
 .dados h3 {
   font-size: 14px;
   line-height: 20px;
   padding-bottom: 10px;
-  color: var(--color-second);
+  color: $second-color;
   font-family: Georgia, 'Times New Roman', serif;
 }
 
@@ -94,7 +94,7 @@ textarea {
   max-width: 340px;
   line-height: 20px;
   padding: 5px 0px 5px 1px;
-  color: var(--color-second);
+  color: $second-color;
 }
 
 .media_container {
@@ -109,12 +109,12 @@ textarea {
 
 .social_media a img {
   padding: 12px;
-  border: 2px solid $primary_color;
+  border: 2px solid $primary-color;
 }
 
 .social_media a img:hover {
   padding: 10px;
-  border: 4px solid var(--color-fourth);
+  border: 4px solid $fourth-color;
 }
 
 .map {

@@ -17,7 +17,7 @@
   font-size: 36px;
   line-height: 40px;
   text-transform: uppercase;
-  color: var(--color-second);
+  color: $second-color;
   letter-spacing: 0.1em;
   font-weight: bold;
   position: relative;
@@ -33,11 +33,11 @@
   height: 3px;
   display: block;
   margin: 10px auto 8px auto;
-  background: var(--color-second);
+  background: $second-color;
 }
 
 .produto_icone {
-  background-color: var(--color-third);
+  background-color: $third-color;
   padding: 70px 0;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .produto_info {
-  background: var(--color-third);
+  background: $third-color;
 }
 
 .produto_info p {
@@ -54,7 +54,7 @@
   height: 182px;
   font-size: 18px;
   line-height: 25px;
-  color: var(--color-second);
+  color: $second-color;
 }
 
 .produto_info ul {
@@ -68,9 +68,9 @@
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  border: 1px solid black;
-  color: var(--color-third);
-  background-color: $primary_color;
+  border: 1px solid $third-color;
+  color: $third-color;
+  background-color: $primary-color;
 }
 
 .produto_info li:nth-child(odd) {
@@ -93,7 +93,7 @@
 
 /* Orçamentos */
 .orcamento {
-  background: var(--color-third);
+  background: $third-color;
 }
 
 .orcamento .container {
@@ -103,11 +103,11 @@
 
 .orcamento .subtitle {
   padding-top: 25px;
-  color: $primary_color;
+  color: $primary-color;
 }
 
 .orcamento .subtitle:after {
-  background: $primary_color;
+  background: $primary-color;
 }
 
 .form {
@@ -126,8 +126,8 @@
 .form_prod_btn input,
 textarea {
   width: 100%;
-  background-color: var(--color-third);
-  border: 3px solid$primary_color;
+  background-color: $third-color;
+  border: 3px solid $primary-color;
 }
 
 .form_prod_btn label {
@@ -140,7 +140,7 @@ textarea {
   padding: 15px 0 5px 0;
 
   /* Visual */
-  color: var(--color-second);
+  color: $second-color;
 }
 
 .btn_submit {
@@ -154,9 +154,9 @@ textarea {
 
   /* Visual */
   text-transform: uppercase;
-  border: 3px solid$primary_color;
-  background-color: var(--color-third);
-  color: $primary_color;
+  border: 3px solid $primary-color;
+  background-color: $third-color;
+  color: $primary-color;
 }
 
 .dados.grid-8 {
@@ -171,14 +171,14 @@ textarea {
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: $primary_color;
+  color: $primary-color;
 }
 
 .dados p {
   font-size: 18px;
   padding-top: 5px;
   line-height: 25px;
-  color: var(--color-second);
+  color: $second-color;
 }
 
 .dados h2:nth-child(even) {
@@ -189,7 +189,7 @@ textarea {
   font-size: 14px;
   line-height: 20px;
   padding-bottom: 10px;
-  color: var(--color-second);
+  color: $second-color;
   font-family: Georgia, 'Times New Roman', serif;
 }
 
@@ -198,9 +198,9 @@ textarea {
   max-width: 340px;
   line-height: 20px;
   padding: 5px 0px 5px 7px;
-  color: var(--color-second);
+  color: $second-color;
 }
 
 .dados_itens li:nth-child(odd) {
-  background-color: var(--color-fourth);
+  background-color: $fourth-color;
 }

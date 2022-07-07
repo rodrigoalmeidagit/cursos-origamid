@@ -5,7 +5,7 @@
   z-index: 10;
   padding: 15px 0;
   position: fixed;
-  background: $primary_color;
+  background: $primary-color;
 }
 
 .header_menu {
@@ -24,12 +24,12 @@
   line-height: 20px;
   font-weight: bold;
   letter-spacing: 0.1em;
-  color: var(--color-third);
+  color: $third-color;
   text-transform: uppercase;
 }
 
 .header_menu ul li a:hover {
-  color: var(--color-second);
+  color: $second-color;
 }
 
 /* Instrução */
@@ -47,13 +47,13 @@
   font-size: 48px;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--color-second);
+  color: $second-color;
 }
 
 .quote__externo {
   max-width: 320px;
   margin: 0 auto 50px auto;
-  color: var(--color-second);
+  color: $second-color;
 }
 
 .quote__externo p {
@@ -76,7 +76,7 @@
   height: 3px;
   display: block;
   margin: 14px auto 10px auto;
-  background: var(--color-second);
+  background: $second-color;
 }
 
 /* Produtos */
@@ -90,14 +90,14 @@
 
 .produtos_itens li {
   text-align: center;
-  background: $primary_color;
+  background: $primary-color;
 }
 
 .produtos_icone {
   padding: 20px;
   display: flex;
   justify-content: center;
-  background: var(--color-third);
+  background: $third-color;
 }
 
 .produtos_itens li h3 {
@@ -114,7 +114,7 @@
   height: 3px;
   display: block;
   margin: 5px auto;
-  background: var(--color-third);
+  background: $third-color;
 }
 
 .produtos_itens li p {
@@ -137,16 +137,16 @@
 .portfolio {
   width: 100%;
   padding: 60px 0;
-  background: var(--color-third);
+  background: $third-color;
 }
 
 .portfolio .subtitle {
   padding-bottom: 40px;
-  color: $primary_color;
+  color: $primary-color;
 }
 
 .portfolio .subtitle::after {
-  background: $primary_color;
+  background: $primary-color;
 }
 
 .portfolio_itens .grid-8 {
@@ -155,7 +155,7 @@
 
 .portfolio .call p {
   padding-bottom: 5px;
-  color: var(--color-second);
+  color: $second-color;
 }
 
 /* Qualidade */
@@ -180,7 +180,7 @@
 }
 
 .qualidade .subtitle::after {
-  color: var(--color-third);
+  color: $third-color;
 }
 
 .qualidade img {
@@ -208,7 +208,7 @@
   height: 3px;
   display: block;
   margin: 6px auto;
-  background-color: var(--color-third);
+  background-color: $third-color;
 }
 
 .qualidade .call p {
@@ -231,8 +231,8 @@
 /* Footer */
 .footer {
   width: 100%;
-  background: var(--color-third);
-  color: var(--color-second);
+  background: $third-color;
+  color: $second-color;
   padding: 20px 0;
 }
 
@@ -242,7 +242,7 @@
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: $primary_color;
+  color: $primary-color;
 }
 
 .footer h3::after {
@@ -251,7 +251,7 @@
   height: 3px;
   display: block;
   margin: 6px 0 10px 0;
-  background-color: $primary_color;
+  background-color: $primary-color;
 }
 
 .footer_historia {
@@ -273,20 +273,20 @@
   padding: 8px;
   display: block;
   margin-top: 5px;
-  border: 3px solid $primary_color;
+  border: 3px solid $primary-color;
 }
 
 .footer_redes ul li a:hover {
-  border-color: var(--color-second);
+  border-color: $second-color;
 }
 
 .copy {
   width: 100%;
-  background: $primary_color;
+  background: $primary-color;
 }
 .copy p {
   padding: 20px 0;
-  color: var(--color-second);
+  color: $second-color;
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
@@ -331,7 +331,7 @@
 }
 
 .js [data-slide-nav] button.active {
-  background: #fec63e;
+  background: $primary-color;
 }
 
 .js [data-anime] {
