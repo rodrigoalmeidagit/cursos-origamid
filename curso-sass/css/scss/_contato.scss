@@ -30,9 +30,7 @@ textarea {
 
 .form_btn label {
   /* Typography */
-  font-size: 18px;
-  line-height: 20px;
-  font-family: Georgia, 'Times New Roman', serif;
+  @include type-2(18);
 
   /* Positioning */
   padding: 15px 0 5px 0;
@@ -82,11 +80,9 @@ textarea {
 }
 
 .dados h3 {
-  font-size: 14px;
-  line-height: 20px;
+  @include type-2(14);
   padding-bottom: 10px;
   color: $second-color;
-  font-family: Georgia, 'Times New Roman', serif;
 }
 
 .dados_itens li {

@@ -14,9 +14,7 @@ body {
 }
 
 p {
-  font-size: 14px;
-  line-height: 20px;
-  font-family: Georgia, 'Times New Roman', serif;
+  @include type-2(14);
 }
 
 img {

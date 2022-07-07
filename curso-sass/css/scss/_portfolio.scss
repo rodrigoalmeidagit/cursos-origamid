@@ -1,27 +1,25 @@
 /* Introdução  */
 .interna_sobre {
-    background: url(../img/bg-portfolio.jpg);
-    background-size: cover;
+  background: url(../img/bg-portfolio.jpg);
+  background-size: cover;
 }
 
 .quote_clientes {
-    padding: 60px 0;
-    max-width: 460px;
-    margin: 0 auto;
+  padding: 60px 0;
+  max-width: 460px;
+  margin: 0 auto;
 }
 
 .quote_clientes p {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 18px;
-    line-height: 25px;
-    font-style: italic;
-    margin-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+  @include type-2(18);
 }
 
 .quote_clientes cite {
-    font-size: 18px;
-    font-weight: bold;
-    float: right;
-    font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  float: right;
+  font-style: normal;
 }

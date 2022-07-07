@@ -17,9 +17,7 @@
 }
 
 .historia_valor ul li {
-  font-size: 18px;
-  line-height: 30px;
-  font-family: Georgia, 'Times New Roman', serif;
+  @include type-2(18);
 }
 
 .foto_equipe {
