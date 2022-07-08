@@ -14,10 +14,19 @@
   line-height: 25px;
   margin-bottom: 1em;
   padding-right: 60px;
+  @include device(mobile) {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 0px;
+  }
 }
 
 .historia_valor ul li {
   @include type-2(18);
+  @include device(mobile) {
+    font-size: 14px;
+    line-height: 25px;
+  }
 }
 
 .foto_equipe {

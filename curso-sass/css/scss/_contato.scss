@@ -61,6 +61,9 @@ textarea {
   flex: 1 1 480px;
   padding-top: 10px;
   padding-left: 75px;
+  @include device(mobile) {
+    padding: 30px 0 0 0;
+  }
 }
 
 .dados h2 {
@@ -91,6 +94,9 @@ textarea {
   line-height: 20px;
   padding: 5px 0px 5px 1px;
   color: $second-color;
+  @include device(mobile) {
+    padding: 5px 0px 5px 7px;
+  }
 }
 
 .media_container {

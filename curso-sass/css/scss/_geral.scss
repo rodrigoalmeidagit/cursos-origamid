@@ -6,16 +6,32 @@
   padding: 15px 0;
   position: fixed;
   background: $primary-color;
+  @include device(mobile) {
+    position: relative;
+    padding-bottom: 0;
+  }
+}
+
+.header img {
+  @include device(mobile) {
+    margin: 0 auto 10px auto;
+  }
 }
 
 .header_menu {
   text-align: right;
+  @include device(mobile) {
+    text-align: center;
+  }
 }
 
 .header_menu ul li {
   margin-top: 25px;
   margin-left: 25px;
   display: inline-block;
+  @include device(mobile) {
+    margin: 5px;
+  }
 }
 
 .header_menu ul li a {
@@ -26,10 +42,19 @@
   letter-spacing: 0.1em;
   color: $third-color;
   text-transform: uppercase;
+  @include device(mobile) {
+    border: 4px solid $third-color;
+    width: 136px;
+    display: block;
+    float: left;
+  }
 }
 
 .header_menu ul li a:hover {
   color: $second-color;
+  @include device(mobile) {
+    border-color: $second-color;
+  }
 }
 
 /* Instrução */
@@ -41,6 +66,12 @@
   text-align: center;
   background: url(../img/bg.jpg) no-repeat center;
   background-size: cover;
+  @include device(mobile) {
+    margin-top: 0;
+    padding-top: 40px;
+    background: url(../img/bg-mobile.jpg) no-repeat center;
+    background-size: cover;
+  }
 }
 
 .introducao__title {
@@ -48,6 +79,9 @@
   font-weight: bold;
   text-transform: uppercase;
   color: $second-color;
+  @include device(mobile) {
+    font-size: 36px;
+  }
 }
 
 .quote__externo {
@@ -82,6 +116,9 @@
 /* Produtos */
 .produtos {
   padding: 60px 0px;
+  @include device(mobile) {
+    padding: 40px 0;
+  }
 }
 
 .produtos .subtitle {
@@ -125,6 +162,9 @@
   clear: both;
   padding-top: 40px;
   text-align: center;
+  @include device(mobile) {
+    padding-top: 10px;
+  }
 }
 
 .call p {
@@ -138,6 +178,9 @@
   width: 100%;
   padding: 60px 0;
   background: $third-color;
+  @include device(mobile) {
+    padding: 40px 0;
+  }
 }
 
 .portfolio .subtitle {
@@ -161,6 +204,9 @@
 /* Qualidade */
 .qualidade {
   padding: 60px 0;
+  @include device(mobile) {
+    padding: 40px 0;
+  }
 }
 
 .qualidade::after {
@@ -173,6 +219,12 @@
   display: block;
   position: absolute;
   background: url(../img/linhas.svg) no-repeat center;
+  @include device(tablet) {
+    right: 66px;
+  }
+  @include device(mobile) {
+    display: none;
+  }
 }
 
 .qualidade .subtitle {
@@ -191,6 +243,9 @@
   padding: 0 40px;
   margin-top: 15px;
   text-align: center;
+  @include device(tablet) {
+    padding: 10px;
+  }
 }
 
 .qualidade_itens h3 {
@@ -272,6 +327,16 @@
   display: block;
   margin-top: 5px;
   border: 3px solid $primary-color;
+  @include device(tablet) {
+    padding: 6px;
+  }
+}
+
+.footer_redes ul li a img {
+  @include device(tablet) {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 .footer_redes ul li a:hover {

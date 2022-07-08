@@ -24,6 +24,14 @@
   top: -190px;
   text-align: center;
   margin-bottom: -62px;
+  @include device(tablet) {
+    top: -150px;
+    margin-bottom: -56px;
+  }
+  @include device(mobile) {
+    top: -110px;
+    margin-bottom: -68px;
+  }
 }
 
 .produtos_item h2::after,
@@ -39,6 +47,12 @@
 .produto_icone {
   background-color: $third-color;
   padding: 70px 0;
+  @include device(tablet) {
+    padding: 41px 0;
+  }
+  @include device(mobile) {
+    padding: 41px 0;
+  }
 }
 
 .produto_icone img {
@@ -55,6 +69,16 @@
   font-size: 18px;
   line-height: 25px;
   color: $second-color;
+  @include device(tablet) {
+    height: 123px;
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  @include device(mobile) {
+    height: auto;
+    padding: 10px 30px;
+    font-size: 14px;
+  }
 }
 
 .produto_info ul {
@@ -71,6 +95,13 @@
   border: 1px solid $third-color;
   color: $third-color;
   background-color: $primary-color;
+  @include device(tablet) {
+    flex: 1 1 150px;
+  }
+  @include device(mobile) {
+    flex: 1 1 100px;
+    font-size: 14px;
+  }
 }
 
 .produto_info li:nth-child(odd) {
@@ -99,6 +130,9 @@
 .orcamento .container {
   display: flex;
   padding: 25px 0 40px 0;
+  @include device(mobile) {
+    display: block;
+  }
 }
 
 .orcamento .subtitle {
@@ -161,6 +195,9 @@ textarea {
   flex: 1 1 480px;
   padding-top: 10px;
   padding-left: 75px;
+  @include device(mobile) {
+    padding: 30px 0 0 0;
+  }
 }
 
 .dados h2 {
@@ -195,6 +232,9 @@ textarea {
   line-height: 20px;
   padding: 5px 0px 5px 7px;
   color: $second-color;
+  @include device(mobile) {
+    padding: 5px 0px 5px 7px;
+  }
 }
 
 .dados_itens li:nth-child(odd) {
